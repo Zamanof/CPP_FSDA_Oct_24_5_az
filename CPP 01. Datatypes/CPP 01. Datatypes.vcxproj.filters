@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Escape sequences.cpp">
+    <ClCompile Include="Datatypes.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
