@@ -20,5 +20,4 @@ int main() {
 
 	/*unsigned char symbol = 254;
 	cout << symbol << endl;*/
-
 }
