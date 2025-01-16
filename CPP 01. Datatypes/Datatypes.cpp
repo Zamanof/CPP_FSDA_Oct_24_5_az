@@ -4,6 +4,8 @@ using namespace std;
 
 
 int main() {
+// https://learn.microsoft.com/en-us/cpp/cpp/data-type-ranges?view=msvc-170
+
 	// variable - 
 	// datatype name = value;
 
