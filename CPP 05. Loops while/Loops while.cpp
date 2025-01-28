@@ -32,4 +32,12 @@ int main() {
 	//	cout << i << ". Hello" << endl;
 	//}
 	//cout << i << endl;
+	
+	/*char symb{};
+	while (symb++)
+	{
+		cout << int(symb) << endl;
+		cout << "Salam" << endl;
+		cout << "Hello" << endl;
+	}*/
 }
