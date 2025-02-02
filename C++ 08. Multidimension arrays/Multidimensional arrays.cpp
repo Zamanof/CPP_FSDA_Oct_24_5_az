@@ -101,7 +101,7 @@ int main() {
 #pragma endregion
 
 #pragma region 3 dimenson array
-	int arr3D[3][3][3]{};
+	/*int arr3D[3][3][3]{};
 	for (int i = 0; i < 3; i++)
 	{
 		for (int j = 0; j < 3; j++)
@@ -126,7 +126,7 @@ int main() {
 		cout << endl;
 	}
 	cout << endl;
-	cout << arr3D[2][1][1] << endl;
+	cout << arr3D[2][1][1] << endl;*/
 	
 #pragma endregion
 
