@@ -100,6 +100,36 @@ int main() {
 
 #pragma endregion
 
+#pragma region 3 dimenson array
+	int arr3D[3][3][3]{};
+	for (int i = 0; i < 3; i++)
+	{
+		for (int j = 0; j < 3; j++)
+		{
+			for (int k = 0; k < 3; k++)
+			{
+				arr3D[i][j][k] = rand() % 100;
+			}
+		}
+	}
+
+	for (int i = 0; i < 3; i++)
+	{
+		for (int j = 0; j < 3; j++)
+		{
+			for (int k = 0; k < 3; k++)
+			{
+				cout<< arr3D[i][j][k]<<' ';
+			}
+			cout << endl;
+		}
+		cout << endl;
+	}
+	cout << endl;
+	cout << arr3D[2][1][1] << endl;
+	
+#pragma endregion
+
 
 	return 0;
 }
