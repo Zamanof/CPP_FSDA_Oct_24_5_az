@@ -127,7 +127,7 @@ int main() {
 	}
 	cout << endl;
 	cout << arr3D[2][1][1] << endl;*/
-	
+
 #pragma endregion
 
 
