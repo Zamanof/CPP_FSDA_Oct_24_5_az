@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{91390eec-808e-47cc-a4d9-2ee12e82d7ba}</ProjectGuid>
-    <RootNamespace>CPP08Multidimensionalarrays</RootNamespace>
+    <ProjectGuid>{4f743331-7e59-4245-a5bc-e4c407fb0721}</ProjectGuid>
+    <RootNamespace>CPP09Arraysinfunctions</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -127,7 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Multidimensional arrays.cpp" />
+    <ClCompile Include="Arrays in functions.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
