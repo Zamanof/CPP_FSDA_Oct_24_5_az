@@ -117,6 +117,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CPP 15", "CPP 15", "{9C72EF
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CPP 15. C String functions part 2", "CPP 15. C String functions part 2\CPP 15. C String functions part 2.vcxproj", "{6CB3BFAA-EA9B-4D08-88A5-C048EF12421C}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CPP 15. Symbol input output example", "CPP 15. Symbol input output example\CPP 15. Symbol input output example.vcxproj", "{5CF4BDCB-27F5-4B2D-8379-267C100F6A2A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -631,6 +633,18 @@ Global
 		{6CB3BFAA-EA9B-4D08-88A5-C048EF12421C}.Release|x64.Build.0 = Release|x64
 		{6CB3BFAA-EA9B-4D08-88A5-C048EF12421C}.Release|x86.ActiveCfg = Release|Win32
 		{6CB3BFAA-EA9B-4D08-88A5-C048EF12421C}.Release|x86.Build.0 = Release|Win32
+		{5CF4BDCB-27F5-4B2D-8379-267C100F6A2A}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{5CF4BDCB-27F5-4B2D-8379-267C100F6A2A}.Debug|Any CPU.Build.0 = Debug|x64
+		{5CF4BDCB-27F5-4B2D-8379-267C100F6A2A}.Debug|x64.ActiveCfg = Debug|x64
+		{5CF4BDCB-27F5-4B2D-8379-267C100F6A2A}.Debug|x64.Build.0 = Debug|x64
+		{5CF4BDCB-27F5-4B2D-8379-267C100F6A2A}.Debug|x86.ActiveCfg = Debug|Win32
+		{5CF4BDCB-27F5-4B2D-8379-267C100F6A2A}.Debug|x86.Build.0 = Debug|Win32
+		{5CF4BDCB-27F5-4B2D-8379-267C100F6A2A}.Release|Any CPU.ActiveCfg = Release|x64
+		{5CF4BDCB-27F5-4B2D-8379-267C100F6A2A}.Release|Any CPU.Build.0 = Release|x64
+		{5CF4BDCB-27F5-4B2D-8379-267C100F6A2A}.Release|x64.ActiveCfg = Release|x64
+		{5CF4BDCB-27F5-4B2D-8379-267C100F6A2A}.Release|x64.Build.0 = Release|x64
+		{5CF4BDCB-27F5-4B2D-8379-267C100F6A2A}.Release|x86.ActiveCfg = Release|Win32
+		{5CF4BDCB-27F5-4B2D-8379-267C100F6A2A}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -678,6 +692,7 @@ Global
 		{9B2E214C-8DA9-434F-A9A6-462DCEF69D55} = {E2491A61-08C3-45AD-B903-AFAB7D32F764}
 		{744A2FD0-06C2-4130-ABF9-0AC4B99DCFC6} = {E2491A61-08C3-45AD-B903-AFAB7D32F764}
 		{6CB3BFAA-EA9B-4D08-88A5-C048EF12421C} = {9C72EFEA-A779-4A65-9E71-9AD8621C305A}
+		{5CF4BDCB-27F5-4B2D-8379-267C100F6A2A} = {9C72EFEA-A779-4A65-9E71-9AD8621C305A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B59295F7-485E-4E18-A26D-9C66C274AAC6}

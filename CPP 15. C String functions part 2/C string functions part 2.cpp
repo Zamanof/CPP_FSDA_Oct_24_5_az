@@ -40,12 +40,12 @@ int main() {
 	// bir simvolun ASCII kodunu qaytarir (Enter basmaqa ehtiyac yoxdur)
 	// conio.h kitabxanasinda yerleshir
 
-	/*int code = {};
+	int code = {};
 	while (true)
 	{
 		code = _getch();
 		cout << code << endl;
-	}*/
+	}
 
 	// out functions
 
