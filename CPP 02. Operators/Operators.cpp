@@ -7,7 +7,7 @@ int main() {
 	 operators:
 
 		unar: bir operandla ishleyen operatorlar
-			-, +, *, &, ++, --, !
+			-, +, *, &, ++, --, !, ., ->
 		binar: iki operandla ishleyen operatorlar
 			-, +, *, /, %, =, +=, -=, *=, /=, <<, >>, &, |, &&, ||, ==, >, <, >=, <=, !=
 		ternar: uch operandla ishleyen operator
