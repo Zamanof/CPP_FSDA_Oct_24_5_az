@@ -2,11 +2,29 @@
 #include"macros.h"
 #include"MyLangauage.h"
 
+
+#ifdef PI
+	#define B PI * 10
+#else
 #define PI 3.14159265359
+#define B PI * 10
+#endif // PI
+
+#ifndef E
 #define E 2.71828182846
+#endif // !E
 
 
 
+#define A 5
+
+// # operatoru deyerden setir yaradir
+#define make_string(value) #value
+
+// ## operatoru iki leksemani birleshdirir
+#define concat(left, right) left##right
+
+#if A == 5
 int main() {
 	srand(time(NULL));
 	/*
@@ -40,23 +58,51 @@ int main() {
 	cout << SQR(12) << endl;
 	cout << CUBE(3) << endl;*/
 
-	tam_eded eded{};
-	input(eded);
-	/*print(eded);*/
-	eger(eded kichikdir 5)
-		begin
-			print("Salam");
-		end
-	eks_halda
-		begin
-			print("Saqol");
-		end
+	//tam_eded eded{};
+	//input(eded);
+	///*print(eded);*/
+	//eger(eded kichikdir 5)
+	//	begin
+	//		print("Salam");
+	//	end
+	//eks_halda
+	//	begin
+	//		print("Saqol");
+	//	end
 
-			sonsuzluq print("Hello");
+	//		sonsuzluq print("Hello");
 
 
 #pragma endregion
 
+#pragma region if, else, elif, endif, ifdef, ifndef
+	// #if, #else, #elif, #endif, #ifdef, #ifndef
+	// Sherti kompilyasiya direktivleri
+	/*cout << "Main main" << endl;*/
+#pragma endregion
+
+// #line <value> - setre nomre teyin edir
+// #error <value> - error yaradir
+
+#if A + 3 != 8
+#error "Bu nedir metroda chekirsiz";
+#endif
+	
+	/*cout << make_string(Salam 5 6) << endl;*/
+
+	/*int myNumb{ 663 };
+
+	cout << concat(my, Numb) << endl;
+	cout << myNumb << endl;*/
 
 
 }
+#elif A == 3
+int main() {
+	cout << "Other main" << endl;
+}
+#else
+int main() {
+	cout << "Third main" << endl;
+}
+#endif
