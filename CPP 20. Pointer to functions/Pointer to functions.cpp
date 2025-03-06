@@ -2,7 +2,6 @@
 #include"ArrayFunctions.h"
 #include"predicates.h"
 
-
 typedef int(*func_pointer_t)(int, int);
 
 typedef  unsigned long long int age_type;
