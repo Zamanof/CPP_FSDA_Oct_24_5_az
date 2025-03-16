@@ -34,7 +34,7 @@ int main() {
 
 	// C++ da struct ve class arasinda yegane
 	// ferq default olaraq access modificator-un
-	// public(struc-da) ve ya private(class-da)
+	// public(struct-da) ve ya private(class-da)
 	// omasidir
 
 	Student student;
