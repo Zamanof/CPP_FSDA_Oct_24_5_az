@@ -4,7 +4,7 @@ using namespace std;
 
 int main() {
 	// initialize method
-	//int number = 5;		// copy initialize 
+	//int number = 5;		// copy initialize
 	//cout << number << endl;
 	//int number1{};		// unify initialize
 	//cout << number1 << endl;
