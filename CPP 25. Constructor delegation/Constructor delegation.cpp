@@ -55,7 +55,6 @@ using namespace std;
 #pragma region Person withconstructor delegation
 class Person
 {
-
 public:
 	char* name;
 	char* surname;
@@ -64,7 +63,6 @@ public:
 	Person()
 		:Person(nullptr, nullptr, 0) // constructor delegation
 	{
-		
 		cout << "Person()" << endl;
 	}
 
@@ -111,4 +109,5 @@ int main() {
 	person.show();
 	person1.show();
 	person3.show();*/
+	
 }
