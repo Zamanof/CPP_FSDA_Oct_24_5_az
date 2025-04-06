@@ -14,5 +14,5 @@ Point Point::mult(const Point& left, int value) {
 	return Point(left.x * value, left.y * value);
 }
 double Point::distance(const Point& left, const Point& right) {
-	return sqrt((right.x - left.x) * (right.x - left.x) + (right.y - left.y) * (right.y - left.y));
+	return sqrt(SQR(right.x - left.x) + SQR(right.y - left.y));
 }

@@ -1,6 +1,8 @@
 #pragma once
 #include<iostream>
+#define SQR(x) (x)*(x)
 using namespace std;
+
 
 class Point
 {

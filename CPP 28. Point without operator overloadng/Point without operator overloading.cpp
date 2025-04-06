@@ -15,5 +15,6 @@ int main() {
 	point4.show();
 
 	cout << Point::distance(point1, point2) << endl;
-	cout << point1 - point2 << endl;
+	
+	
 }
