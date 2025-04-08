@@ -38,6 +38,6 @@ int main() {
 	cout << right;
 	cout << boolalpha << (left == right) << endl;
 	cout << boolalpha << (left != right) << endl;*/
-
-
 }
+
+// Gelen derse qeder arashdirin (Mutleq sorushacam): Move Constructor 
