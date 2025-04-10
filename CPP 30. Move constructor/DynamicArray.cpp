@@ -82,3 +82,7 @@ DynamicArray::~DynamicArray() {
 	cout << "~DynamicArray()" << endl;
 	delete[] arr;
 }
+
+
+// Novbeti ders uchun dinamik data strukturlar haqqinda oxuyun 
+// Dynamic data structure (Linked List, Double Linked List, Stack, Queue, Hash table)
