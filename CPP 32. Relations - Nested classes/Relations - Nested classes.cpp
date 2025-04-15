@@ -15,7 +15,7 @@ public:
 		void showOuterValuesInInnerClass();
 	};
 
-	Inner InnerObject;
+	Inner InnerObject; 
 	void showOuterValues();
 };
 
