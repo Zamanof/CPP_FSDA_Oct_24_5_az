@@ -19,6 +19,9 @@ public:
 	void showOuterValues();
 };
 
+void Enclosing::showOuterValues() {
+
+}
 int main() {
 
 	/*
@@ -28,5 +31,6 @@ int main() {
 			- depends on - asilidir
 			- uses - istifade edir
 			- part-whole - hisse-tam: Nested classes
-	*/
+	
+*/
 }
