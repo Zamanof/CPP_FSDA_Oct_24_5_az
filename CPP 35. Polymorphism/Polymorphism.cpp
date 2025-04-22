@@ -30,7 +30,7 @@ public:
 class SphynxCat : public Cat {
 public:
 	int life;
-	void Sound() override {
+	void Sound() {
 		cout << name << " - men ne qeder kechel olsam da, deyerem min pishiye" << endl;
 	}
 };
@@ -79,12 +79,12 @@ int main() {
 	//animals[0].Sound();*/
 
 	 // pointer to Base class	
-	Animal* dog2 = &dog;
-	dog2->Sound();
+	/*Animal* dog2 = &dog;
+	dog2->Sound();*/
 
 	// reference to Base class
-	Animal& cat2 = cat;
-	cat2.Sound();
+	/*Animal& cat2 = cat;
+	cat2.Sound();*/
 
 
 	 /*Animal** animalFarm = new Animal*[7]{
@@ -107,3 +107,7 @@ int main() {
 	 };
 	 cats[1]->Sound();
 }
+
+// Abstract class
+// pure virtual constructor
+// pure virtual destructor

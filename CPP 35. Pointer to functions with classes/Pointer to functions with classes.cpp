@@ -15,15 +15,16 @@ public:
 	void studentInfo() {
 		cout << format("{} {} - {}\n", name, surname, age) << endl;
 	}
-	friend bool(const Student& left, const Student& right);
+
+	friend bool operator>(const Student& left, const Student& right);
 };
-bool(const Student& left, const Student& right) {
-	return left.age > right.age
+bool operator > (const Student& left, const Student& right) {
+	return left.age > right.age;
 }
 
 
 template<class T>
-void bubbleSorting(T* arr, int length);
+void bubbleSorting(T* arr, int length, bool(*predicate)(const T&, const T&));
 
 void showStudents(Student* students, int length) {
 	for (size_t i = 0; i < length; i++)
@@ -32,16 +33,32 @@ void showStudents(Student* students, int length) {
 	}
 }
 
+bool asc(const int& a, const int& b) {
+	return a > b;
+}
+
+bool desc(const int& a, const int& b) {
+	return a < b;
+}
+
+bool ascName(const Student& left, const Student& right) {
+	return left.name > right.name;
+}
+
+bool ascSurame(const Student& left, const Student& right) {
+	return left.surname > right.surname;
+}
+
 int main() {
-	/*int arr[5]{ 56,-7,11,-23,1564 };
-	bubbleSorting(arr, 5);
+	int arr[5]{ 56,-7,11,-23,1564 };
+	/*bubbleSorting(arr, 5, desc);
 	for (size_t i = 0; i < 5; i++)
 	{
 		cout << arr[i] << ' ';
 	}
-	cout << endl;
+	cout << endl;*/
 
-	double arr2[5]{ 0.56,-7.31,11,-0.23,1564 };
+	/*double arr2[5]{ 0.56,-7.31,11,-0.23,1564 };
 	bubbleSorting(arr2, 5);
 	for (size_t i = 0; i < 5; i++)
 	{
@@ -65,18 +82,18 @@ int main() {
 		Student("Rza", "Eliyev", 21)
 	};
 
-	bubbleSorting(students, 13);
+	bubbleSorting(students, 13, ascSurame);
 	showStudents(students, 13);
 }
 
 template<class T>
-void bubbleSorting(T* arr, int length) {
+void bubbleSorting(T* arr, int length, bool(*predicate)(const T&, const T&)) {
 	bool swapped{};
 	int pos{};
 	do {
 		swapped = false;
 		for (int i = 0; i < length - pos - 1; i++) {
-			if (arr[i] > arr[i + 1]) {
+			if (predicate(arr[i], arr[i+1])) {
 				swap(arr[i], arr[i + 1]);
 				swapped = true;
 			}
