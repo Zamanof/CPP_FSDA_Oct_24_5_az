@@ -1,7 +1,9 @@
 #include<iostream>
 #include<format>
 
+
 using namespace std;
+
 
 class Student {
 public:
@@ -65,7 +67,6 @@ int main() {
 		cout << arr2[i] << ' ';
 	}
 	cout << endl;*/
-
 	Student students[13]{
 		Student("Nadir", "Zamanov", 45),
 		Student("Roman", "Dadasov", 22),
