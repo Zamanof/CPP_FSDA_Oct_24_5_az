@@ -8,6 +8,10 @@ void foo(const int* numb1, const int& numb2, int* numb3) {
 	*(const_cast<int*>(numb1)) = 45;
 
 	const_cast<int&>(numb2) = 15;
+
+	const int* fooNumber3 = const_cast<const int*>(numb3);
+	/**fooNumber3 = 56;*/
+
 }
 
 int main() {
